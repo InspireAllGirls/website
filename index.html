@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inspire All Girls</title>
+
+  	<link href="main.css" rel="stylesheet" type=text/css />
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+
+  <script>
+  window.addEventListener("resize", getTemplate);
+
+CurrentPage = 'index.html';
+
+window.addEventListener("resize", getTemplate);
+
+CurrentPage = 'DesktopPage';
+
+function getTemplate() {
+  if (screen.width >= 767 && CurrentPage != 'DesktopPage') {
+      return window.location.replace("index.html");
+  }
+
+  if (screen.width < 767 && CurrentPage != 'MobilePage') {
+      return window.location.replace("mobile.html");
+  }
+}
+
+getTemplate();
+</script>
+
+
+</head>
+  <body>
+    <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">≡
+      </button>
+      <div class="dropdown-content">
+        <a href="#home.png">home</a>
+        <a href="#goals.png">sdg's</a>
+        <a href="#milestones.png">milestones</a>
+        <a href="#partnerships.png">partnerships</a>
+        <a href="#ImpactedRegions.png">impacted regions</a>
+        <a href="#write.png">blog</a>
+        <a href="#events.png">events</a>
+        <a href="#joinus.png">join us</a>
+        <a href="ourteam">team</a>
+      </div>
+    </div>
+  </div>
+    <img class="imgcover" id="home.png" src="home.png" >
+    <img class="imgcover" src="quote1.png">
+    <img class="imgcover" id="goals.png" src="goals.png">
+    <img class="imgcover" id="milestones.png" src="milestones.png">
+    <a href=""><img class="imgcover" id="partnerships.png" src="partnerships.png" alt=""></a>
+    <a href=""><img class="imgcover" id="initiatives.png" src="initiatives.png" alt=""></a>
+    <img class="imgcover" id="ImpactedRegions.png" src="ImpactedRegions.png">
+    <img class="imgcover" src="quote2.png">
+    <a href=""><img class="imgcover" id="write.png" src="write.png" alt=""></a>
+    <a href=""><img class="imgcover" id="events.png" src="events.png" alt=""></a>
+    <a href="https://forms.gle/uDrTF8yL3fnHAjnZ6"><img class="imgcover" id="joinus.png" src="joinus.png" alt=""></a>
+  </body>
+</html>
