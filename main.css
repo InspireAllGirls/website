@@ -1,7 +1,8 @@
 html, body, a, img {
   padding: 0%;
   margin: 0%;
-  display:block
+  display:block;
+  font-family:Arial;
 }
 .imgcover {
   width:100%;
