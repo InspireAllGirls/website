@@ -50,3 +50,5 @@ right:0;
 .dropdown:hover .dropdown-content {
   display: block;
 }
+td, tr, img  { padding: 0px; margin: 0px; border:0px; }
+table, td, tr { border-collapse: collapse; }
