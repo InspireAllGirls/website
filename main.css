@@ -50,5 +50,34 @@ right:0;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-td, tr, img  { padding: 0px; margin: 0px; border:0px; }
-table, td, tr { border-collapse: collapse; }
+td, tr, img  {
+  padding: 0px;
+  margin: 0px;
+  border:0px;
+}
+table, td, tr {
+  border-collapse: collapse;
+}
+a {
+  text-decoration:none;
+  color:grey;
+}
+a:hover {
+  color: #F57A9E;
+}
+.mono {
+	text-decoration:none;
+	margin-left:2%;
+  margin-right:2%;
+	margin-bottom:5%;
+  padding-top:5%;
+	font-size:2rem;
+	color:#6a6a6a;
+  	display: inline;
+}
+p {
+  font-size:2rem;
+}
+p:hover {
+  color: #F57A9E;
+}
