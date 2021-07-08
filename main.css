@@ -73,9 +73,7 @@ a:hover {
 }
 p {
   font-size:2rem;
-}
-p:hover {
-  color: #F57A9E;
+  color: grey;
 }
 #movelink {
   margin-left:1%;
